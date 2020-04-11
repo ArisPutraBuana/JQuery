@@ -1,0 +1,9 @@
+# JQuery adalah sebuah JavaScript Library.
+
+# Langkah-langkah Install JQuery
+
+1  https://jquery.com/download/
+2  Download the compressed (Jika kita tidak melakukan perubahan pada JQuery)
+3  Ekstrak JQuery
+4  Letakan file JQuery berdasarkan kategori file ( js/css )
+5  Setting untuk memanggil JQuery ( dibagian Header & Footer )

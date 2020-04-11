@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah dan Hapus Input Form Dinamis (Tambah & Hapus Element Form)</title>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="13_TambahDanHapus_InputFormDinamis_JQuery.js"></script>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        #member,
+        .member {
+            background-color: #ff0000;
+        }
+
+        .input {
+            margin: 10px 0px;
+        }
+
+        input[type=text],
+        input[type=email] {
+            padding: 5px;
+            font-size: 14px;
+        }
+
+        .tambahmember {
+            background-color: #009688;
+            color: #fff;
+            padding: 5px;
+        }
+
+        .hapusmember {
+            background-color: #ff5722;
+            color: #fff;
+            padding: 5px;
+        }
+
+        hr {
+            border: 2px solid #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="" method="posst">
+        <div id="member">
+            <div class="input">
+                <input type="text" name="nama" required placeholder="Nama Lengkap">
+            </div>
+            <div class="input">
+                <input type="text" name="alamat" required placeholder="Alamat">
+            </div>
+            <div class="input">
+                <input type="email" name="email" required placeholder="Email">
+            </div>
+            <div class="input">
+                <input type="text" name="no_hp" required placeholder="Nomor Hanphone">
+            </div>
+        </div>
+        <a href="#" class="tambahmember">(+) Tambah</a>
+        <a href="#" class="hapusmember">(-) Hapus</a>
+    </form>
+</body>
+
+</html>
